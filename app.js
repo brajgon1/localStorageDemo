@@ -47,4 +47,7 @@ studentForm.onsubmit = (e) => {
     );
 
     createStudentElement(newStudent)
+    nameInput.value = ''
+    ageInput.value = ''
+    rollInput.value = ''
 };
